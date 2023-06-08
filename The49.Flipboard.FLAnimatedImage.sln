@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The49.Flipboard.FLAnimatedImage", "The49.Flipboard.FLAnimatedImage\The49.Flipboard.FLAnimatedImage.csproj", "{FFDD7BDD-66EE-42B4-9076-260DCFFDDDF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The49.Flipboard.FLAnimatedImage.Sample", "The49.Flipboard.FLAnimatedImage.Sample\The49.Flipboard.FLAnimatedImage.Sample.csproj", "{B60395E6-66E8-440F-B298-7071450D0A21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFDD7BDD-66EE-42B4-9076-260DCFFDDDF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFDD7BDD-66EE-42B4-9076-260DCFFDDDF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFDD7BDD-66EE-42B4-9076-260DCFFDDDF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFDD7BDD-66EE-42B4-9076-260DCFFDDDF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B60395E6-66E8-440F-B298-7071450D0A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60395E6-66E8-440F-B298-7071450D0A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60395E6-66E8-440F-B298-7071450D0A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60395E6-66E8-440F-B298-7071450D0A21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2866FF5A-4785-4C93-9E23-7DFA0B8A4A7F}
+	EndGlobalSection
+EndGlobal

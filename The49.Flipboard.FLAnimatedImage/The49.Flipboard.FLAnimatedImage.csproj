@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net7.0-ios</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>true</ImplicitUsings>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<IsBindingProject>true</IsBindingProject>
+		<ProvisioningType>manual</ProvisioningType>
+		<RootNamespace>Flipboard.FLAnimatedImage</RootNamespace>
+		<AssemblyName>The49.Flipboard.FLAnimatedImage</AssemblyName>
+		<IsPackable>true</IsPackable>
+		<AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+		<NoBindingEmbedding>true</NoBindingEmbedding>
+
+		<VersionPrefix>1.0.0</VersionPrefix>
+		<VersionSuffix>-alpha1</VersionSuffix>
+
+		<Title>FLAnimated images bindings for .NET</Title>
+		<Version>$(VersionPrefix)$(VersionSuffix)</Version>
+		<Company>The49 Ltd.</Company>
+		<Description>FLAnimated images bindings for .NET</Description>
+		<PackageProjectUrl>https://github.com/the49ltd/The49.Flipboard.FLAnimatedImage</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/the49ltd/The49.Flipboard.FLAnimatedImage</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>the49;flanimatedimage;ios</PackageTags>
+
+	</PropertyGroup>
+
+	<ItemGroup>
+		<NativeReference Include="../FLAnimatedImage.framework" Kind="Framework" SmartLink="False" />
+	</ItemGroup>
+	<ItemGroup>
+		<ObjcBindingApiDefinition Include="ApiDefinitions.cs" />
+	</ItemGroup>
+	<ItemGroup>
+		<Content Include="The49.Flipboard.FLAnimatedImage.targets">
+			<PackagePath>build\The49.Flipboard.FLAnimatedImage.targets</PackagePath>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+</Project>

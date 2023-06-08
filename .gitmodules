@@ -1,0 +1,3 @@
+[submodule "FLAnimatedImage"]
+	path = FLAnimatedImage
+	url = git@github.com:Flipboard/FLAnimatedImage.git
